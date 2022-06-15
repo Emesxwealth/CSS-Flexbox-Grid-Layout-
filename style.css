@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+ }
+ 
+
+ body {
+      background-color: black;
+      margin: 0px;
+    background: #0e0e0e;
+    height: 100%;
+     
+     
+
+ }
+
+ main {
+    
+     color: white;
+     display: white;
+     width: 70%;
+     margin: auto;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     height: 100vh;
+     flex-direction: center;
+}
+
+.firs-col{
+    background-color: Bright orange;
+    flex-direction: row;
+    justify-content: left;
+
+}
+.second-col{
+    background-color: Dark rgba(0, 255, 255, 0.644);
+    flex-direction: row;
+    justify-content: left;
+}
+.third-col{
+    background-color: Very dark rgba(0, 255, 255, 0.219);
+    flex-direction: row-reverse!;
+    justify-content: left;
+}
